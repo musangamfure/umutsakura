@@ -87,7 +87,7 @@ const tabs = [
     userText: (
       <div className='md:mt-6'>
         <span className='text-sky-500'>@umtsakura </span>
-        Bahindira ibirori by'inzozi zawe impamo.
+        Bahindira ibirori by&apos;inzozi zawe impamo.
       </div>
     ),
   },
@@ -106,10 +106,10 @@ const FourthSection = () => {
     <>
       <div className='pt-4 xl:pt-4 flex justify-center items-center flex-col '>
         <div className='text-3xl w-3/4 xl:text-5xl font-medium xl:w-1/2 text-center'>
-          Twubakiye k' Ubudasa, Ubugeni, n'Ubunyamwuga .
+          Twubakiye k&apos;Ubudasa, Ubugeni, n&apos;Ubunyamwuga .
         </div>
         <div className='py-4 px-10  xl:w-1/2 2xl:w-1/3 md:w-2/3 text-center'>
-          Hari ubwo bwinshi bw'ibyiza twagukore ngo ibirori byawe bibe
+          Hari ubwo bwinshi bw&apos;ibyiza twagukore ngo ibirori byawe bibe
           ibyagahebuzo. Hitamo maze tugufasha gutegura ibirori neza.
         </div>
         <div className='text-sky-500 flex items-center hover:underline hover:cursor-pointer'>

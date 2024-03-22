@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { PiArrowRight } from 'react-icons/pi';
+import Image from 'next/image';
 
 function HeroSection() {
   return (
@@ -14,12 +15,12 @@ function HeroSection() {
           Tugutegurira
           <div className='flex flex-col mb-4'>
             <span className='z-10'>Ibirori Neza</span>
-            <img
-              src='assets/stylish-underline.png'
+            <Image
+              src='/assets/stylish-underline.png'
               alt='stylish underline'
               className='z-0 -mt-5'
-              height={'15px'}
-              width={'50%'}
+              height={40}
+              width={300}
             />
           </div>
           Bikizihira Ababyitabiriye Bose.
@@ -45,10 +46,12 @@ function HeroSection() {
       </div>
 
       <div className='hidden md:flex flex-1 justify-center items-center relative'>
-        <img
+        <Image
           src='/assets/bride.png'
           alt='bride'
           className='w-[78%] object-cover -mt-60'
+          height={500}
+          width={1024}
         />
       </div>
     </section>

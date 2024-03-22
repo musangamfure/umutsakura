@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 interface Props {
@@ -30,7 +31,12 @@ function CategoryCard({ title, description, iconUrl, highlighted }: Props) {
       </p>
       {highlighted && (
         <div className='absolute -bottom-2 left-0 -z-50'>
-          <img src='/assets/rectangle-shape.png' alt='shape' />
+          <Image
+            src='/assets/rectangle-shape.png'
+            alt='shape'
+            width={100}
+            height={100}
+          />
         </div>
       )}
     </div>
